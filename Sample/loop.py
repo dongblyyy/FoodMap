@@ -19,6 +19,10 @@ for index, fruit in enumerate(fruits, start = 2):
     print(f"{index}번째 과일은 {fruit} 입니다.")
     index = index + 1
 
+for x in range(1, 10):
+    for y in range(1, 10):
+        print(f"{x} * {y} = {x * y}")
+
 # while
 i = 0
 while i < 5:
@@ -32,5 +36,7 @@ while True:
     if user_input == "exit":
         break
     else:   
-        pass    # Todo 추후 개발 예정.
+        pass
+
+
     
