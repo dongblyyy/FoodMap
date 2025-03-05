@@ -6,6 +6,7 @@ intents.message_content = True
 
 client = discord.Client(intents=intents)
 
+
 def build_message(item):
     embed = discord.Embed(type="rich", title=item["name"])
     embed.description(item["brand"])
@@ -14,6 +15,7 @@ def build_message(item):
     embed.add_field(name="원래 가격", value=item["original_price"], inline=True)
     embed.add_field(name="할인 가격", value=item["sale_price"], inline=True)
     return embed
+
 
 @client.event
 async def on_ready():
@@ -40,4 +42,6 @@ async def on_message(message):
 
         await message.channel.send(embeds=embeds)
 
-client.run("MTM0NjgxMjkxOTY3NzA1OTA4NA.GuHH4M.PStshzPQ1Wsu6LWuSSgy0XZ_219p9qayvr5rsQ")
+
+# Token 주석 처리. (Git Push Protection)
+# client.run("MTM0NjgxMjkxOTY3NzA1OTA4NA.GuHH4M.PStshzPQ1Wsu6LWuSSgy0XZ_219p9qayvr5rsQ")
