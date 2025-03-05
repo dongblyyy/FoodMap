@@ -43,5 +43,4 @@ async def on_message(message):
         await message.channel.send(embeds=embeds)
 
 
-# Token 주석 처리. (Git Push Protection)
-# client.run("MTM0NjgxMjkxOTY3NzA1OTA4NA.GuHH4M.PStshzPQ1Wsu6LWuSSgy0XZ_219p9qayvr5rsQ")
+client.run("input Token")
