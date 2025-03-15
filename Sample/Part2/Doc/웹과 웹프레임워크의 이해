@@ -1,0 +1,45 @@
+1. 클라이언트와 서버 구조
+
+2. 사용자 <-> 클라이언트(브라우저) <-> 서버 <-> 캐시 <-> 데이터베이스
+
+3. 브라우저 개발자 도구. (Network 탭 활용)
+    3.1 탭 구조
+        - Elements : 화면상의 표시하는 html Elements를 검사.
+        - Console : 자바스크립트 실행시 로그나 에러를 조회.
+        - Source : 각 파일들의 소스들을 확인.
+        - Network : 모든 요청과 응답을 확인.
+            - Fetch/HXR : 레스트프레임워크 요청, 결과 확인 가능.
+        - Performance : 한 페이지에서 어느정도 성능이 나오는지.
+        - Memory : 메모리 프로파일링.
+        - Application : 저장소, 쿠키.
+        - Security : 인증서.
+        - Lightthouse : 전문 영역.
+
+4. URL 구조 'https://www.site.com/weather/today/?loc=seattle#cloude'
+    - 프로토콜 : https
+    - 호스트 이름/도메인 : www.site.com
+    - 경로 : weather/today (어떤 페이지를 호출할건지)
+    - 쿼리스트링 : ?loc=seattle (조건건)
+    - 해시 : '#cloude' (한 페이지 내 어떤 섹션을 나타내는지)
+
+5. 웹프레임워크
+    5.1 선호도
+        - 프론트 : React, View, Svelte.
+        - 백엔드 : dJango, FastAPI, Spring.
+    5.2 dJango 장/단점
+        5.2.1 장점
+            - Batteries included 다양한 도구 내장.
+            - 간편하고 강력한 ORM.
+            - 빠른 개발 속도.
+            - 어드민 도구 내장.
+            - 문서, 커뮤니티.
+        5.2.2 단점
+            - 백엔드 위주의 프레임워크.
+            - REST API 기본 지원 안함.
+            - 과도한 기능. (커스터마이징이 어려움)
+            - Websocket 기본 지원 안함.
+
+
+
+
+
