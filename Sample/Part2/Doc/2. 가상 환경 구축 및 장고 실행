@@ -1,0 +1,19 @@
+[가상환경 구축]
+	- 생성
+		○ py -m venv .venv
+	
+	- 활성화
+		○ .venv/Scripts/activate
+
+	- 비활성화 deactivate (경로랑 무관)
+
+	- 장고 설치
+	- py install django
+	
+	- 장고 서버 프고젝트 시작
+		○  py - m django startproject my_project .  # 콤마를 넣어야 현재 폴더에 직접 경로 생성 
+		
+	- 서버 실행
+		○  cd my_project
+		○  py manage.py runserver
+		○  http://127.0.0.1:8000/ or http://localhost:8000 
