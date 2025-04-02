@@ -1,7 +1,0 @@
-[실행]
-	- py manage.py startapp [앱 이름]
-
-[DB 변경 사항 적용]
-	- py manage.py makemigrations
-	- py manage.py migrate
-	- py manage.py runserver
