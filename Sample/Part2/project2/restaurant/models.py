@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class AModel(models.Model):
+class Restaurant(models.Model):
     # 이름
     name = models.CharField(max_length=50)
     # 주소
@@ -18,3 +18,5 @@ class AModel(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     # 업데이트 시간
     updated_at = models.DateTimeField(auto_now=True)
+    # 방문자수
+    visitor_count = models.IntegerField(default=0)

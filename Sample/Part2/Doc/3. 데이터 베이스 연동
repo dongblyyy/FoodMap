@@ -22,3 +22,13 @@
     - py manage.py makemigrations
     - py manage.py migrate
     - py manage.py runserver
+
+
+6. 슈퍼 유저 생성
+    - py manage.py createsuperuser
+    - 사용자 이름 (leave blank to use ‘tenma'): admin
+    - 이메일 주소: clichedmoog@gmail.com
+    - Password:
+    - Password (again):
+    - Superuser created successfully.
+    - python manage.py runserver
